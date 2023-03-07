@@ -1,0 +1,88 @@
+:root {
+    --black-900: #161a1d;
+    --black-700: #343a40;
+    --red-900: #660708;
+    --red-700: #a4161a;
+    --text: #dee2e6;
+    --text-500: #6c757d;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    scroll-behavior: smooth;
+
+}
+
+
+.navname {
+    display: flex;
+    vertical-align: middle;
+    font-size: 3rem;
+    color: var(--red-700);
+    filter: drop-shadow(2px 2px 2px var(--text));
+}
+
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    color: var(--text);
+    /* filter: drop-shadow(1px 1px 1px var(--text)); */
+
+}
+
+.nav-list li {
+    transition: 300ms;
+}
+
+.nav-list li:hover {
+    transform: scale(1.2);
+    color: var(--text-500);
+}
+
+.titleNav {
+    margin: auto;
+    text-align: center;
+}
+
+.over {
+    text-decoration: underline;
+}
+
+.heroSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home {
+    text-decoration: none;
+    color: var(--black-900);
+    transition: 400ms;
+}
+
+.btnHome:hover {
+    transform: scale(1.2);
+    background: var(--black-700);
+    color: var(--text);
+}
+
+.images{
+    height: 45rem;
+    width: 45rem;
+    background: none;
+    /* border: 4px solid white; */
+    border-radius: 30px;
+    /* padding: 3rem; */
+}
+
+.carousel-title{
+    color: var(--text-500);
+}
+
+.carousel-title-sub{
+    color: var(--text);
+}
